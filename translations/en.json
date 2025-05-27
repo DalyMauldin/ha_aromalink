@@ -1,0 +1,22 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Aroma-Link Login",
+        "description": "Enter your Aroma-Link account credentials. All your devices will be automatically discovered.",
+        "data": {
+          "username": "Aroma-Link Username",
+          "password": "Aroma-Link Password"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Failed to connect to Aroma-Link. Please check your credentials and internet connection.",
+      "no_devices": "No devices found in your Aroma-Link account. Please ensure you have registered diffusers.",
+      "auth_failed": "Authentication failed. Please check your credentials."
+    },
+    "abort": {
+      "already_configured": "This Aroma-Link account is already configured."
+    }
+  }
+}
