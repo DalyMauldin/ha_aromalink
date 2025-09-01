@@ -1,12 +1,15 @@
 {
   "domain": "aroma_link_new",
   "name": "Aroma-Link (New)",
-  "config_flow": true,
-  "documentation": "https://github.com/Memberapple/aromalink_ha_integration",
-  "issue_tracker": "https://github.com/Memberapple/aromalink_ha_integration/issues",
-  "requirements": [],
-  "dependencies": [],
+  "after_dependencies": [],
   "codeowners": ["@Memberapple"],
-  "version": "1.1.0",
-  "iot_class": "cloud_polling"
+  "config_flow": true,
+  "dependencies": [],
+  "documentation": "https://github.com/Memberapple/ha_aromalink#readme",
+  "homeassistant": "2021.12.0",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/Memberapple/ha_aromalink/issues",
+  "loggers": ["custom_components.aroma_link_new"],
+  "requirements": [],
+  "version": "1.0.0"
 }
